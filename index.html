@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AMS Maskin</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container header-inner">
+        <h1 class="logo">AMS Maskin</h1>
+        <nav class="nav">
+          <ul>
+            <li><a href="index.html" class="active">Hjem</a></li>
+            <li><a href="tjenester.html">Tjenester</a></li>
+            <li><a href="om-oss.html">Om oss</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Slideshow -->
+    <section id="home" class="slideshow">
+      <div class="slides">
+        <div
+          class="slide active"
+          style="
+            background-image: url('https://picsum.photos/1200/600?random=10');
+          "
+        >
+          <span>Robuste maskiner, klar til arbeid</span>
+        </div>
+        <div
+          class="slide"
+          style="
+            background-image: url('https://picsum.photos/1200/600?random=11');
+          "
+        >
+          <span>Kvalitet og presisjon</span>
+        </div>
+        <div
+          class="slide"
+          style="
+            background-image: url('https://picsum.photos/1200/600?random=12');
+          "
+        >
+          <span>Service vi står inne for</span>
+        </div>
+      </div>
+
+      <!-- Kontroller må være her -->
+      <div class="slideshow-controls">
+        <button id="prevSlide">‹</button>
+        <button id="nextSlide">›</button>
+      </div>
+    </section>
+
+    <!-- Tidligere jobber -->
+    <section id="previous-work" class="section gallery">
+      <div class="container">
+        <h2>Tidligere jobber</h2>
+        <div class="gallery-grid">
+          <div class="gallery-img">
+            <img
+              class="clickable-image"
+              src="https://picsum.photos/400/300?random=21"
+              alt="Grunnarbeid i Oslo"
+            />
+
+            <h3>Grunnarbeid boligprosjekt</h3>
+            <p>
+              Utførte omfattende grunnarbeid for et nytt boligområde i Oslo.
+              Inkluderte planering, graving og levering av masser.
+            </p>
+          </div>
+          <div class="gallery-img">
+            <img
+              class="clickable-image"
+              src="https://picsum.photos/400/300?random=22"
+              alt="Veivedlikehold"
+            />
+            <h3>Veivedlikehold og grusing</h3>
+            <p>
+              Vedlikehold av lokal vei i Østlandet, inkludert profilering,
+              grusing og reparasjon av skader etter vinteren.
+            </p>
+          </div>
+          <div class="gallery-img">
+            <img
+              class="clickable-image"
+              src="https://picsum.photos/400/300?random=23"
+              alt="Transport av masser"
+            />
+            <h3>Transport til industriprosjekt</h3>
+            <p>
+              Transport av store masser og maskiner til et industriområde.
+              Effektiv logistikk og sikker håndtering av maskiner og materialer.
+            </p>
+          </div>
+          <div class="gallery-img">
+            <img
+              class="clickable-image"
+              src="https://picsum.photos/400/300?random=24"
+              alt="Sprengning næringsbygg"
+            />
+            <h3>Sprengning for næringsbygg</h3>
+            <p>
+              Gjennomføring av sprengningsarbeid for nytt næringsbygg.
+              Planlegging, sikkerhet og presis utførelse stod i fokus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+      <span class="close">&times;</span>
+      <img class="lightbox-content" id="lightbox-img" />
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© 2025 AMS Maskin. Alle rettigheter reservert.</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
